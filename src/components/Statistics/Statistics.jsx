@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types'; 
 import 'index.css';
 
-const Statistics = ([good, neutral, bad, total,positivePercentage])=> (
+const Statistics = ({good, neutral, bad, total,positivePercentage})=> (
    
 <div>
     <p>Good: {good} </p>
